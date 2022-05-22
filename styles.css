@@ -79,7 +79,8 @@ width: 500px;
 }
 
 .pair > img {
-    border: 2px solid red;
+    border: 2px solid darkblue;
+    border-radius: 15px;
     height: 200px;
     width: 200px
 }
