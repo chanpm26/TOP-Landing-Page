@@ -41,6 +41,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .topwords {
@@ -73,16 +74,21 @@ width: 500px;
 }
 
 .sectionthree {
+    padding: 40px 80px;
+}
+
+.pairs {
     display: flex;
-    gap: 20px;
+    gap: 100px;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .pair > img {
     border: 2px solid darkblue;
     border-radius: 15px;
-    height: 200px;
-    width: 200px
+    height: 250px;
+    width: 250px
 }
 
 .some {
@@ -93,8 +99,63 @@ width: 500px;
 }
 
 .pair {
-display: flex;
-flex-direction: column;
-text-align: center;
-max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.quoteblock {
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    max-width: 1000px;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.attribution {
+    font-size: 24px;
+    max-width: 1000px;
+    display: flex;
+    margin-top: -50px;
+    align-items: end;
+    flex-direction: column;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    width: 700px;
+    padding: 10px 100px;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.call {
+    font-size: 18px;
+    margin-bottom: -15px;
+    font-weight: bold;
+}
+
+.signupbutton {
+    width: 1000px;
+    border-color: white;
 }
