@@ -104,6 +104,7 @@ width: 500px;
     text-align: center;
     align-items: center;
     max-width: 200px;
+    font-size: 20px;
 }
 
 .quoteblock {
@@ -119,18 +120,14 @@ width: 500px;
     max-width: 1000px;
     font-size: 36px;
     color: #1F2937;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: left;
 }
 
 .attribution {
     font-size: 24px;
-    max-width: 1000px;
-    display: flex;
-    margin-top: -50px;
-    align-items: end;
-    flex-direction: column;
+    margin-top: -45px;
+    text-align: right;
+    width: 800px;
 }
 
 .signup {
@@ -139,7 +136,7 @@ width: 500px;
     gap: 80px;
     align-items: center;
     width: 700px;
-    padding: 10px 100px;
+    padding: 20px 100px;
     border-radius: 8px;
 }
 
@@ -158,4 +155,6 @@ width: 500px;
 .signupbutton {
     width: 1000px;
     border-color: white;
+    font-weight: bold;
+    border-width: 5px;
 }
